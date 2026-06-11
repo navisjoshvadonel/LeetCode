@@ -36,5 +36,5 @@ Solutions are organized into category folders based on their data structure or a
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/navisjoshvadonel">navisjoshvadonel</a>
+  Made  by <a href="https://github.com/navisjoshvadonel">navisjoshvadonel</a>
 </p>
