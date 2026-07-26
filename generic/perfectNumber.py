@@ -13,3 +13,9 @@ class Solution(object):
                 if i!= num // i:
                     total_sum += num // i
         return total_sum == num
+
+if __name__ == "__main__":
+    sol = Solution()
+    test_cases = [28, 6, 496, 8128, 2, 7]
+    for num in test_cases:
+        print(f"checkPerfectNumber({num}) = {sol.checkPerfectNumber(num)}")
