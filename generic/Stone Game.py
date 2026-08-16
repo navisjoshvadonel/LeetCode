@@ -1,0 +1,9 @@
+class Solution(object):
+    def stoneGameIX(self, stones):
+        cnt = [0, 0, 0]
+        for s in stones:
+            cnt[s % 3] += 1
+        if cnt[0] % 2 == 0:
+            return min(cnt[1], cnt[2]) > 0
+        else:
+            return abs(cnt[1] - cnt[2]) > 2
